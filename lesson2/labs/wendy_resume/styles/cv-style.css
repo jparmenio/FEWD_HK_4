@@ -1,0 +1,83 @@
+cv-style.css
+body {
+	background-color: red;
+	margin: 0;
+	padding: 0;
+	color: red;
+}
+
+div {
+	border: solid 5px #cccccc;
+	width: 680px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+h1 {
+	width: 680 px;
+	color: green;
+	text-align: center;
+	font-style: italic;
+	font-size: 48px;
+}
+
+h2	{
+	width: 680 px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: verdana;
+}
+
+aside {
+	float: right;
+	background-color: red;
+	width: 40%;
+}
+
+main {	
+	 word-wrap: break-word;
+	 background-color: blue;
+	 width: 50%
+}
+
+a {
+	font-family: verdana;
+	font-weight: bold;
+	color: #33dd55;
+}
+
+nav ul {
+	padding: 0px;
+	margin: 0 auto;
+	width: 200px;
+	overflow: hidden;
+}
+
+li {
+	list-style: none;
+	float: left;
+	margin: 0 10px;
+}
+
+img {
+	float: right;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+footer ul {
+	padding: 0px;
+	margin: 0 auto;
+	width: 370px;
+	overflow: hidden;
+	background-color: yellow;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}

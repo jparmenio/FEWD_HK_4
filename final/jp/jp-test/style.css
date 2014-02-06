@@ -1,0 +1,82 @@
+body {
+	background-color: #364852;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+div {
+	border: solid 5px #cccccc;
+	width: 680px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+h1 {
+	text-align: center;
+	font-style: italic;
+	font-size: 40px;
+}
+
+h2	{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: verdana;
+}
+
+.main {
+  background-color: red;
+  float: left;
+  width: 60%;
+}
+aside {
+	background-color: blue;
+  float: right;
+  width: 40%;
+}
+
+p {	
+	 word-wrap: break-word; 
+}
+a {
+	font-family: verdana;
+	font-weight: bold;
+	color: #33dd55;
+}
+
+nav ul {
+	padding: 0px;
+	margin: 0 auto;
+	width: 200px;
+	overflow: hidden;
+}
+
+li {
+	list-style: none;
+	float: left;
+	margin: 0 10px;
+}
+
+img {
+	float: right;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+footer ul {
+	background-color: yellow;
+  /*float: left;*/
+  padding: 0px;
+	margin: 0 auto;
+	width: 370px;
+	overflow: hidden;
+}
+
+.clearfix:after {  
+    content: "";  
+    display: block;  
+    clear: both;  
+    visibility: hidden;  
+    font-size: 0;  
+    height: 0;  
+    }  
