@@ -1,0 +1,150 @@
+body {
+  background-color: black;
+  font-family: ABeeZee;
+  text-decoration: none;
+  list-style: none;
+}
+
+h1 {
+  color: #FF0;
+  font-size: 35px;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+.mainboxes {
+  margin: 0 auto;
+  float: left;
+  list-style: none;
+  width: 1024px;
+  padding: 30px;
+}
+
+h3 {
+  margin: 0px;
+  background-color: #6e7972;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+  border-top: yellow;
+  border-top-style: solid;
+  border-top-width: medium;
+}
+
+h3 #taste {
+	text-decoration: line-through;
+	color: gray;
+	}
+
+h3 #are {
+	text-decoration: underline;
+	text-decoration-color: yellow;
+}
+
+#container > nav li {
+  float: right;
+  list-style: none;
+  padding: 0 15px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a {
+  color: #FFF;
+}
+
+#image {
+	height: 450px;
+	background: cover;
+	background-image: url("../coworking.jpg");
+	box-shadow: inset 0 0 20px;
+}
+
+.button {
+	background-color: yellow;
+	text-align: center;
+	padding: 15px;
+}
+
+#match {
+	background-color: white;
+	border: black;
+	float: right;
+	width: 33%;
+	font-size: 25px;
+}
+
+#match > h1 {
+	color: black;
+	font-size: 25px;
+	text-align: center;
+	font-style: bold;
+	padding: 5 25px;
+}
+
+#match > h2 {
+	color: black;
+	font-size: 20px;
+	text-align: left;
+	padding: 0 35px;
+}
+
+.button1 {
+	color: black;
+	background-color: yellow;
+	font-style: bold;
+	text-decoration: none;
+}
+
+.button {
+	color: black;
+	background-color: gray;
+	font-style: bold;
+	text-decoration: none;
+}
+
+#lowboxes {
+	height: 200px;
+}
+
+.box {
+	float: left;
+	color: black;
+	width: 33%;
+	height: 260px;
+	text-align: left;
+	font-size: 25px;
+	background-color: white;
+	padding: 1px;
+}
+
+.box > h1 {
+	color: black;
+	font-size: 25px;
+	text-align: left;
+	font-style: bold;
+	padding: 5 25px;
+}
+
+.box > h2 {
+	color: black;
+	font-size: 22px;
+	text-align: left;
+	padding: 0 70px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}

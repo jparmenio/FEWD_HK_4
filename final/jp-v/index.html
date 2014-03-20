@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bombanka</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="Box2dWeb-2.1.a.3.min.js">
+		</script>
+		<script type="text/javascript" src="boxbox.js">
+		</script>
+	</head>
+	<body>
+	<article id="capturebox">
+		<video id="screenshot-stream" autoplay></video>
+		<img id="screenshot" src="">
+		<canvas id="screenshot-canvas" style="display:none;"></canvas>
+		<p>
+		<button id="screenshot-button">Take Picture</button>
+		<button id="screenshot-stop-button">Start Game</button></p>
+	</article>
+	<article id="gamebox">
+		
+	    	<header>BOMBANKA</header>
+	    	<div>
+	    		<span class="topButtons" id="startGame">Start Game</span>
+	    		<span class="topButtons" id="takePhoto">Take Photo</span>
+	    		<input class="topButtons" type="file" accept="image/*;capture=camera">
+	    	</div>
+	    	<canvas id="game" width=640 height=380>
+	      	Text that you see if you don't support Canvas :(
+	    	</canvas>
+		
+	</article>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    	<script src="game.js"></script>
+  	</body>
+</html>

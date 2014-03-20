@@ -1,0 +1,166 @@
+body {
+  background-color: black;
+  color: yellow;
+ }
+
+header {
+  color: yellow;
+  padding-left: 200px;
+  font-size: 35px;
+  font-family: verdana;
+  padding-top: 35px;
+}
+
+.topButtons {
+	width: 33%;
+	padding-top: 15px;
+	padding-left: 97px;
+}
+
+#screenshot-stream {
+	height: 204px;
+	width: 264px;
+}
+
+#screenshot {
+	height: 204px;
+	width: 264px;
+}
+
+.mainboxes {
+  margin: 0 auto;
+  width: 1024px;
+  padding left: 30px;
+}
+
+#capturebox {
+
+}
+
+#gamebox {
+	display: none;
+}
+
+#screenshot-stop-button {
+	display: none;
+}
+
+li {
+  margin: 3px;
+  color: red;
+  height: 200px;
+  background-color: #6e7972;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  list-style: none;
+  float: left;
+}
+
+#container > nav li {
+  float: right;
+  list-style: none;
+  padding: 0 15px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a {
+  color: #FFF;
+}
+
+#image {
+	height: 450px;
+	background: cover;
+	background-image: url("../coworking.jpg");
+	box-shadow: inset 0 0 20px;
+}
+
+.button {
+	background-color: yellow;
+	text-align: center;
+	padding: 15px;
+}
+
+#match {
+	background-color: white;
+	border: black;
+	float: right;
+	width: 33%;
+	font-size: 25px;
+}
+
+#match > h1 {
+	color: black;
+	font-size: 25px;
+	text-align: center;
+	font-style: bold;
+	padding: 5 25px;
+}
+
+#match > h2 {
+	color: black;
+	font-size: 20px;
+	text-align: left;
+	padding: 0 35px;
+}
+
+.button1 {
+	color: black;
+	background-color: yellow;
+	font-style: bold;
+	text-decoration: none;
+}
+
+.button {
+	color: black;
+	background-color: gray;
+	font-style: bold;
+	text-decoration: none;
+}
+
+#lowboxes {
+	height: 200px;
+}
+
+.box {
+	float: left;
+	color: black;
+	width: 33%;
+	height: 260px;
+	text-align: left;
+	font-size: 25px;
+	background-color: white;
+	padding: 1px;
+}
+
+.box > h1 {
+	color: black;
+	font-size: 25px;
+	text-align: left;
+	font-style: bold;
+	padding: 5 25px;
+}
+
+.box > h2 {
+	color: black;
+	font-size: 22px;
+	text-align: left;
+	padding: 0 70px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}

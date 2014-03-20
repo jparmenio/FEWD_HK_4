@@ -185,3 +185,45 @@ footer {
 	color: white;
 	padding: 2% 3%;
 }
+
+@media only screen and (max-width:768px){
+	
+	body {font-size: 13px;}
+
+  	#page-header nav {float: none}
+
+  	#page-header nav ul {position: relative;}
+
+  	#page-header nav ul li {
+  		float: none;
+  		display: none;
+  	}
+
+  	.push-button .line {
+  		border: solid yellow 2px;
+  		margin: 4px 10px;
+  	}
+
+  	#page-header nav ul li.push-button {
+  		width: 60px;
+  		position: absolute;
+  		right: 0px;
+  		top: 22px;
+  		display: block;
+  	}
+
+  	.first-nav-item {padding-top: 50px}
+
+  	.tout{
+    	float: none;
+    	width: 95%;
+    	box-shadow: none;
+  	}
+  	.tout .button {width: 95%}
+
+  	.blurb {width: 60%}
+
+  	.removeSentence {display: none}
+
+  	.tagline {display: none}
+}

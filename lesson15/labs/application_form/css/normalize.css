@@ -357,7 +357,7 @@ form {
  */
 
 fieldset {
-    border: 1px solid #c0c0c0;
+    border: 0px solid #c0c0c0;
     margin: 0 2px;
     padding: 0.35em 0.625em 0.75em;
 }
@@ -389,6 +389,7 @@ textarea {
     margin: 0; /* 2 */
     vertical-align: baseline; /* 3 */
     *vertical-align: middle; /* 3 */
+    border-radius: 5px;
 }
 
 /*
@@ -484,6 +485,8 @@ input::-moz-focus-inner {
 textarea {
     overflow: auto; /* 1 */
     vertical-align: top; /* 2 */
+    width: 400px;
+    height: 150px;
 }
 
 /* ==========================================================================

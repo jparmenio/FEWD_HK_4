@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>About JP</title>
-	<link rel="stylesheet" type="text/css" href="jp-test/style.css">
+	<title>WeConvene</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/js" href="wc.js">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+	</script>
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  	<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js">
+  	</script>
 </head>
 <body>
-	<div>
-		<h1><header>John Paul Armenio</header></h1>
-		<nav>
-			<ul>
-				<li><a href="index.html">About me</a></li>
-				<li><a href="cv.html">CV</a></li>	
-			</ul>
-		</nav>
-		<hr>
-		<h2>About Me</h2>
-		<aside><img src="img/jp-sized.jpg"></aside>
-			<p class="main" "clearfix">Still in progress. Thank You for being a friend. Travel down a road and back again. Your heart is true, you're a pal and a confidante.And if you threw a party, invited everyone you knew, you would see the biggest gift would be from me and the card attached would say, Thank You For Being a Friend!  blah blahhhhhhhhhhhhhhs;lkasd;flkajsdf;lkajsdf lasdf;lia;fa ;laursl;ihal;kdf;alk lakuiqueoajjaosdjek a;dijjakke aoealkj</p>
-		<hr>
-		<footer>
-			<ul>
-				<li><a href="#">Facebook</a></li>
-				<li><a href="#">Twitter</a></li>
-				<li><a href="#">Github</a></li>
-				<li><a href="#">Pinterest</a></li>
-			</ul>
-		</footer>
+ 	<div id="leftBox">
+		<h1 id="leftText" class="clearfix">CON</h1>
 	</div>
+	<div id="rightBox">
+		<h1 id="rightText" class="clearfix">VENE</h1>
+	</div> 
+	<script>
+	$(function(){
+  			$( "#leftBox" ).animate({margin: 0}, 700, "swing", logIn());
+  			$( "#rightBox" ).animate({margin: 0}, 700)		
+	});
+	</script>
+	<script type="text/javascript">
+		function logIn() {
+			alert("Hello World!");
+		}
+	</script>
 </body>
 </html>
